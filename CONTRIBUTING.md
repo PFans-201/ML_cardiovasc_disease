@@ -34,7 +34,7 @@ git commit -m "feat: initial project setup with probabilistic ML structure
 - Set up data pipeline and reproducible environment"
 
 # Add remote repository (replace with your actual GitHub URL)
-git remote add origin https://github.com/YOUR_USERNAME/adv-ml-cvd-project.git
+git remote add origin https://github.com/PFans-201/ML_cardiovasc_disease.git
 
 # Push to GitHub
 git push -u origin main
