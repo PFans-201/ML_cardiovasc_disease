@@ -1,0 +1,30 @@
+# Python and Jupyter ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.env
+.venv
+.ipynb_checkpoints/
+.DS_Store
+*_venv/
+*_env/
+# Ignore virtual environment directories that end with '_(v)env'
+
+# Data (track raw data, ignore processed outputs)
+# Keep raw data in repository for reproducibility
+!data/raw/*.csv
+!data/raw/README.md
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Reports
+reports/figures/*
+!reports/figures/.gitkeep
+
+# VS Code
+.vscode/

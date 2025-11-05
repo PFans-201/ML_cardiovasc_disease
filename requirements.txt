@@ -1,0 +1,72 @@
+# Cardiovascular Disease Prediction & Treatment Optimization
+# Advanced Machine Learning Project Requirements
+
+# Core Data Science Stack
+pandas>=2.0.0               # Data manipulation and analysis
+numpy>=1.24.0               # Numerical computing
+scikit-learn>=1.3.0         # Machine learning algorithms
+scipy>=1.10.0               # Scientific computing and statistics
+imbalanced-learn>=0.14.0    # Handling imbalanced datasets
+
+# Deep Learning & Advanced ML
+tensorflow>=2.16.1          # Deep learning framework
+
+keras>=3.3.3                # High-level neural networks API
+jax>=0.4.0                  # High-performance ML computations
+jaxlib>=0.4.0               # JAX backend
+
+# Probabilistic & Statistical Modeling
+statsmodels>=0.14.0         # Statistical models
+pymc>=5.0.0                 # Bayesian modeling (optional for advanced features)
+
+# # Time Series & Sequential Data
+# hmmlearn>=0.3.0             # Hidden Markov Models
+# tslearn>=0.6.0              # Time series machine learning
+
+# # Reinforcement Learning
+# stable-baselines3>=2.0.0    # RL algorithms
+# gymnasium>=0.29.0           # RL environments (replaces gym)
+
+# Visualization & Plotting
+matplotlib>=3.7.0         # Basic plotting
+seaborn>=0.12.0           # Statistical visualization  
+plotly>=5.14.0            # Interactive visualizations
+missingno>=0.5.0          # Missing data visualization
+
+# Jupyter Environment
+jupyter>=1.0.0            # Jupyter ecosystem
+ipykernel>=6.22.0         # Jupyter kernel
+notebook>=7.0.0           # Notebook interface
+jupyterlab>=4.0.0         # Advanced notebook interface
+
+# Graph & Network Analysis
+networkx>=3.0             # Graph algorithms
+pgmpy>=0.1.23             # Probabilistic graphical models
+
+# Data Processing & Utilities
+imbalanced-learn>=0.11.0  # Handling imbalanced datasets
+tqdm>=4.65.0              # Progress bars
+pathlib                   # Path handling (built-in Python 3.4+)
+
+# # Data Validation & Quality
+# great-expectations>=0.17.0 # Data validation framework (optional)
+
+# Model Evaluation & Interpretation
+shap>=0.42.0              # Model interpretation
+eli5>=0.13.0              # Model explanation (optional)
+
+# Development & Testing
+pytest>=7.0.0             # Testing framework
+black>=23.0.0             # Code formatting
+flake8>=6.0.0             # Code linting (optional)
+
+# Optional: Advanced Features
+# Uncomment if you want to use these advanced features:
+# pystan>=3.7.0           # Bayesian modeling with Stan
+# arviz>=0.15.0           # Bayesian analysis visualization
+# optuna>=3.3.0           # Hyperparameter optimization
+# wandb>=0.15.0           # Experiment tracking
+tqdm>=4.65.0
+
+# Model persistence
+joblib>=1.2.0
