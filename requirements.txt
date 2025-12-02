@@ -8,19 +8,19 @@ scikit-learn>=1.3.0         # Machine learning algorithms
 scipy>=1.10.0               # Scientific computing and statistics
 imbalanced-learn>=0.14.0    # Handling imbalanced datasets
 
-# Deep Learning & Advanced ML
-tensorflow>=2.16.1          # Deep learning framework
+# # Deep Learning & Advanced ML
+# tensorflow>=2.16.1          # Deep learning framework
 
-keras>=3.3.3                # High-level neural networks API
-jax>=0.4.0                  # High-performance ML computations
-jaxlib>=0.4.0               # JAX backend
+# keras>=3.3.3                # High-level neural networks API
+# jax>=0.4.0                  # High-performance ML computations
+# jaxlib>=0.4.0               # JAX backend
 
 # Probabilistic & Statistical Modeling
 statsmodels>=0.14.0         # Statistical models
-pymc>=5.0.0                 # Bayesian modeling (optional for advanced features)
+# pymc>=5.0.0                 # Bayesian modeling (optional for advanced features)
 
 # # Time Series & Sequential Data
-# hmmlearn>=0.3.0             # Hidden Markov Models
+hmmlearn>=0.3.0             # Hidden Markov Models
 # tslearn>=0.6.0              # Time series machine learning
 
 # # Reinforcement Learning
@@ -42,6 +42,7 @@ jupyterlab>=4.0.0         # Advanced notebook interface
 # Graph & Network Analysis
 networkx>=3.0             # Graph algorithms
 pgmpy>=0.1.23             # Probabilistic graphical models
+# pygraphviz>=1.10          # Graph visualization
 
 # Data Processing & Utilities
 imbalanced-learn>=0.11.0  # Handling imbalanced datasets
@@ -52,8 +53,8 @@ pathlib                   # Path handling (built-in Python 3.4+)
 # great-expectations>=0.17.0 # Data validation framework (optional)
 
 # Model Evaluation & Interpretation
-shap>=0.42.0              # Model interpretation
-eli5>=0.13.0              # Model explanation (optional)
+# shap>=0.42.0              # Model interpretation
+# eli5>=0.13.0              # Model explanation (optional)
 
 # Development & Testing
 pytest>=7.0.0             # Testing framework
@@ -66,7 +67,6 @@ flake8>=6.0.0             # Code linting (optional)
 # arviz>=0.15.0           # Bayesian analysis visualization
 # optuna>=3.3.0           # Hyperparameter optimization
 # wandb>=0.15.0           # Experiment tracking
-tqdm>=4.65.0
 
-# Model persistence
-joblib>=1.2.0
+# # Model persistence
+# joblib>=1.2.0

@@ -1,7 +1,7 @@
 # Milestone M2: Bayesian Network Design
 
 **Deadline:** October 20, 23:59  
-**Status:** 📋 Planned
+**Status:** Submitted ✅
 
 ---
 
@@ -35,31 +35,31 @@
 ## 📊 Specific Tasks
 
 ### 7.1. Structure Design
-- [ ] Design BN including: risk_score, state, treatment, utility (minimum)
-- [ ] Add subset of symptoms and/or lab values as observable evidence
-- [ ] Justify each edge with clinical reasoning
-- [ ] Implement network structure in pgmpy
-- [ ] Visualize network graph with clear node labels
+- [✅] Design BN including: risk_score, state, treatment, utility (minimum)
+- [✅] Add subset of symptoms and/or lab values as observable evidence
+- [✅] Justify each edge with clinical reasoning
+- [✅] Implement network structure in pgmpy
+- [✅] Visualize network graph with clear node labels
 
 ### 7.2. Discretization
-- [ ] Select appropriate thresholds for continuous variables
-- [ ] Use imputed dataset (not normalized) for discretization
-- [ ] Create categorical bins with medical justification
-- [ ] Document discretization rules and rationale
-- [ ] Validate discretization preserves meaningful patterns
+- [✅] Select appropriate thresholds for continuous variables
+- [✅] Use imputed dataset (not normalized) for discretization
+- [✅] Create categorical bins with medical justification
+- [✅] Document discretization rules and rationale
+- [✅] Validate discretization preserves meaningful patterns
 
 ### 7.3. Estimating CPTs by Counting
-- [ ] Compute relative frequencies for all CPT entries
-- [ ] Handle variables with multiple parents correctly
-- [ ] Use full dataset treating encounters as independent
-- [ ] Display at least one complete CPT as example
-- [ ] Verify CPT probabilities sum to 1.0
+- [✅] Compute relative frequencies for all CPT entries
+- [✅] Handle variables with multiple parents correctly
+- [✅] Use full dataset treating encounters as independent
+- [✅] Display at least one complete CPT as example
+- [✅] Verify CPT probabilities sum to 1.0
 
 ### 7.4. Analysis of Independencies
-- [ ] Use pgmpy's get_independencies() to list all conditional independencies
-- [ ] Select clinically interesting independence relationships
-- [ ] Evaluate medical plausibility of independence assumptions
-- [ ] Discuss whether independencies seem reasonable for cardiovascular disease
+- [✅] Use pgmpy's get_independencies() to list all conditional independencies
+- [✅] Select clinically interesting independence relationships
+- [✅] Evaluate medical plausibility of independence assumptions
+- [✅] Discuss whether independencies seem reasonable for cardiovascular disease
 
 ---
 

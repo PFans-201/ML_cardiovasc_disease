@@ -5,7 +5,7 @@
 **Source:** Synthetic Medical Diagnosis and Treatment Dataset  
 **Domain:** Cardiovascular Disease Longitudinal Study  
 **Purpose:** Educational dataset for probabilistic modeling, inference, and treatment optimization  
-**Creation Date:** 2024/2025 Academic Year  
+**Creation Date:** 2025/2026 Academic Year  
 **License:** Educational use only (synthetic data)
 
 ---
