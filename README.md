@@ -19,7 +19,7 @@ This project systematically explores **probabilistic modeling techniques** appli
 
 ### Key Features
 - 📚 **Systematic Methodology**: Six milestones covering core probabilistic ML techniques
-- 🔬 **Hands-on Implementation**: Build models from scratch using pgmpy, hmmlearn, custom RL
+- 🔬 **Hands-on Implementation**: Build models from scratch using pgmpy, pygraphiz, hmmlearn, custom RL
 - � **Real-world Complexity**: Handle missing data, discretization, temporal dependencies
 - 🎓 **Educational Focus**: Deep understanding over black-box solutions
 
@@ -41,16 +41,7 @@ This project systematically explores **probabilistic modeling techniques** appli
 │   ├── M4/                     # BN Learning from Data
 │   ├── M5/                     # Hidden Markov Models
 │   └── M6/                     # Reinforcement Learning
-├── src/project/                # 🔧 Reusable Python modules
-│   ├── data_loader.py          # Standardized data loading utilities
-│   ├── visualizations.py       # Comprehensive plotting toolkit
-│   ├── gmm_utils.py            # Gaussian Mixture Model utilities
-│   ├── bayesian_networks.py    # BN modeling and inference
-│   ├── hmm_utils.py            # Hidden Markov Model tools
-│   └── rl_environment.py       # Reinforcement Learning setup
-├── notebooks/                  # 🧪 Development & demonstration notebooks
-├── reports/                    # 📊 Final outputs & visualizations
-└── docs/                       # 📚 Documentation & guidelines
+└── docs/                       # 📚 Documentation & project guidelines
 ```
 
 ## 🚀 Quick Start
@@ -112,46 +103,46 @@ This project systematically builds expertise in probabilistic machine learning:
 
 ## 📈 Milestones & Progress
 
-### 📊 **M0: Exploratory Data Analysis** (Deadline: Sept 26)
-- ✅ Dataset overview and baseline characteristics
-- ✅ Disease state distributions and patient trajectories  
-- ✅ Treatment patterns and outcome analysis
-- ✅ Missing data assessment and handling strategies
+### 📊 **M0: Exploratory Data Analysis**
+-  Dataset overview and baseline characteristics
+-  Disease state distributions and patient trajectories  
+-  Treatment patterns and outcome analysis
+-  Missing data assessment and handling strategies
 
-### 🎯 **M1: Gaussian Mixture Models** (Deadline: Oct 10)
-- 📋 Feature selection and preprocessing for clustering
-- 📋 GMM fitting with optimal cluster selection (AIC/BIC)
-- 📋 Cluster characterization and clinical interpretation
-- 📋 Comparison with true disease states
+### 🎯 **M1: Gaussian Mixture Models**
+-  Feature selection and preprocessing for clustering
+-  GMM fitting with optimal cluster selection (AIC/BIC)
+-  Cluster characterization and clinical interpretation
+-  Comparison with true disease states
 
-### �️ **M2: Bayesian Network Design** (Deadline: Oct 20)
-- 📋 Structure design with clinical justification
-- 📋 Variable discretization for categorical BNs
-- 📋 CPT estimation from encounter data
-- 📋 Conditional independence analysis
+### �️ **M2: Bayesian Network Design**
+- Structure design with clinical justification
+- Variable discretization for categorical BNs
+- CPT estimation from encounter data
+- Conditional independence analysis
 
-### 🧠 **M3: Bayesian Network Inference** (Deadline: Nov 7)
-- 📋 Exact inference (Variable Elimination, Belief Propagation)
-- 📋 Approximate inference with sampling methods
-- 📋 Clinical query design and interpretation
+### 🧠 **M3: Bayesian Network Inference**
+- Exact inference (Variable Elimination, Belief Propagation)
+- Approximate inference with sampling methods
+- Clinical query design and interpretation
 
-### 📚 **M4: Learning Bayesian Networks** (Deadline: Nov 21)
-- 📋 Parameter learning with train/test patient splits
-- 📋 Structure learning with score-based search
-- 📋 Model comparison: hand-designed vs. learned
-- 📋 Expert knowledge vs. data-driven trade-offs
+### 📚 **M4: Learning Bayesian Networks**
+- Parameter learning with train/test patient splits
+- Structure learning with score-based search
+- Model comparison: hand-designed vs. learned
+- Expert knowledge vs. data-driven trade-offs
 
-### ⏱️ **M5: Hidden Markov Models** (Deadline: Dec 1)
-- 📋 Temporal modeling with troponin + symptom features
-- 📋 Baum-Welch parameter learning
-- 📋 Viterbi decoding and state sequence analysis
-- 📋 Comparison with true disease progression
+### ⏱️ **M5: Hidden Markov Models**
+- Temporal modeling with troponin + symptom features
+- Baum-Welch parameter learning
+- Viterbi decoding and state sequence analysis
+- Comparison with true disease progression
 
-### 🤖 **M6: Reinforcement Learning** (Deadline: Dec 12)
-- 📋 MDP environment setup with state/action/reward
-- 📋 Tabular Q-learning for treatment policies
-- 📋 Policy evaluation vs. random/heuristic baselines
-- 📋 Clinical interpretation of learned strategies
+### 🤖 **M6: Reinforcement Learning**
+- MDP environment setup with state/action/reward
+- Tabular Q-learning for treatment policies
+- Policy evaluation vs. random/heuristic baselines
+- Clinical interpretation of learned strategies
 
 ## 💡 Key Innovations
 
